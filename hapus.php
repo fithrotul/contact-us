@@ -8,7 +8,7 @@ if (isset($_GET['id'])) {
     $sql = "DELETE FROM kontak WHERE id = $id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Data berhasil dihapus!";
+        echo "Selamat! data berhasil dihapus!";
     } else {
         echo "Error: " . $conn->error;
     }
