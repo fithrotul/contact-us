@@ -13,7 +13,7 @@ $result = $conn->query($sql);
     <title>Data Terkirim</title>
 </head>
 <body>
-    <h2>Data Terkirim</h2>
+    <h2>Selamat! Data Anda Terkirim</h2>
     <table border="1">
         <tr>
             <th>ID</th>
